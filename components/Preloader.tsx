@@ -6,7 +6,7 @@ interface PreloaderProps {
   color?: string; // Customizable color for the loader columns
 }
 
-export default function Preloader({ color = "#9BCCD0" }: PreloaderProps) {
+export default function Preloader({ color = "#1E4380" }: PreloaderProps) {
   const [step, setStep] = useState<"initial" | "step1" | "step2" | "step3" | "complete">("initial");
   const [showLogo, setShowLogo] = useState<boolean>(true);
 
