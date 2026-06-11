@@ -19,9 +19,18 @@ export default function Facilities() {
               <span className="text-energy">Facilities.</span>
             </h2>
           </div>
-          <p className="text-white/60 text-base leading-relaxed max-w-sm">
-            Every square inch of Squash is built to facilitate elite athletic performance and premium social interaction. Discover what makes us the ultimate athletic hub.
-          </p>
+          <div className="flex flex-col items-start gap-5 max-w-sm">
+            <p className="text-white/60 text-base leading-relaxed">
+              Every square inch of Squash is built to facilitate elite athletic performance and premium social interaction. Discover what makes us the ultimate athletic hub.
+            </p>
+            <a
+              href="/book"
+              className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-energy text-primary-dark font-extrabold text-sm tracking-tight hover:scale-[1.02] active:scale-[0.98] transition-all duration-300 shadow-lg group cursor-pointer"
+            >
+              <span>Book a Court</span>
+              <ArrowUpRight className="w-4 h-4 text-primary-dark group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
+            </a>
+          </div>
         </div>
 
         {/* Bento Grid */}
